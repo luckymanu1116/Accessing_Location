@@ -1,0 +1,27 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Click"
+        android:text="Click For Location"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"></Button>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt1"
+        android:layout_below="@id/Click"
+        android:text=""
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="50dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt2"
+        android:layout_below="@id/txt1"
+        android:text=""
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="50dp"/>
+</RelativeLayout>
